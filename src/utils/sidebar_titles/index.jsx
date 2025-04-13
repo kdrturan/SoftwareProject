@@ -119,17 +119,17 @@ export const INSTRUCTORRIGHTSIDEBARLIST = [
                 <path
                     d="M11.6667 4.66667C11.6667 3.75 10.9167 3 10.0001 3C9.08341 3 8.33341 3.75 8.33341 4.66667C8.33341 5.58333 9.08341 6.33333 10.0001 6.33333C10.9167 6.33333 11.6667 5.58333 11.6667 4.66667Z"
                     stroke="#202020"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                 />
                 <path
                     d="M11.6667 16.3334C11.6667 15.4167 10.9167 14.6667 10.0001 14.6667C9.08341 14.6667 8.33341 15.4167 8.33341 16.3334C8.33341 17.25 9.08341 18 10.0001 18C10.9167 18 11.6667 17.25 11.6667 16.3334Z"
                     stroke="#202020"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                 />
                 <path
                     d="M11.6667 10.5C11.6667 9.58331 10.9167 8.83331 10.0001 8.83331C9.08341 8.83331 8.33341 9.58331 8.33341 10.5C8.33341 11.4166 9.08341 12.1666 10.0001 12.1666C10.9167 12.1666 11.6667 11.4166 11.6667 10.5Z"
                     stroke="#202020"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                 />
             </svg>
         ),
@@ -141,14 +141,14 @@ export const INSTRUCTORRIGHTSIDEBARLIST = [
                 <rect x="0.5" y="1" width="39" height="39" rx="19.5" stroke="#9E9E9E"/>
                 <path
                     d="M20.0134 14.44C17.8067 14.44 16.0134 16.2333 16.0134 18.44V20.3667C16.0134 20.7733 15.8401 21.3933 15.6334 21.74L14.8667 23.0133C14.3934 23.8 14.7201 24.6733 15.5867 24.9667C18.4601 25.9267 21.5601 25.9267 24.4334 24.9667C25.2401 24.7 25.5934 23.7467 25.1534 23.0133L24.3867 21.74C24.1867 21.3933 24.0134 20.7733 24.0134 20.3667V18.44C24.0134 16.24 22.2134 14.44 20.0134 14.44Z"
-                    stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                    stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round"/>
                 <path
                     d="M21.2467 14.6333C21.04 14.5733 20.8267 14.5267 20.6067 14.5C19.9667 14.42 19.3534 14.4667 18.78 14.6333C18.9734 14.14 19.4534 13.7933 20.0134 13.7933C20.5734 13.7933 21.0534 14.14 21.2467 14.6333Z"
-                    stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                    stroke-linejoin="round"/>
+                    stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round"
+                    strokeLinejoin="round"/>
                 <path
                     d="M22.0134 25.2067C22.0134 26.3067 21.1134 27.2067 20.0134 27.2067C19.4668 27.2067 18.9601 26.98 18.6001 26.62C18.2401 26.26 18.0134 25.7533 18.0134 25.2067"
-                    stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10"/>
+                    stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10"/>
             </svg>
         ),
         label: '',
@@ -159,10 +159,10 @@ export const INSTRUCTORRIGHTSIDEBARLIST = [
                 <rect x="0.5" y="1" width="39" height="39" rx="19.5" stroke="#9E9E9E"/>
                 <path
                     d="M17.9999 27.1666H21.9999C25.3333 27.1666 26.6666 25.8333 26.6666 22.5V18.5C26.6666 15.1666 25.3333 13.8333 21.9999 13.8333H17.9999C14.6666 13.8333 13.3333 15.1666 13.3333 18.5V22.5C13.3333 25.8333 14.6666 27.1666 17.9999 27.1666Z"
-                    stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 <path
                     d="M13.3333 21.1666H15.8399C16.3466 21.1666 16.8066 21.4533 17.0333 21.9066L17.6266 23.1C17.9999 23.8333 18.6666 23.8333 18.8266 23.8333H21.1799C21.6866 23.8333 22.1466 23.5466 22.3733 23.0933L22.9666 21.9C23.1933 21.4466 23.6533 21.16 24.1599 21.16H26.6533"
-                    stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#292D32" strokeWidth="1.5"strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
         ),
         label: '',
@@ -174,15 +174,15 @@ export const INSTRUCTORRIGHTSIDEBARLIST = [
                 <path
                     d="M17.9999 27.1666H21.9999C25.3333 27.1666 26.6666 25.8333 26.6666 22.5V18.5C26.6666 15.1666 25.3333 13.8333 21.9999 13.8333H17.9999C14.6666 13.8333 13.3333 15.1666 13.3333 18.5V22.5C13.3333 25.8333 14.6666 27.1666 17.9999 27.1666Z"
                     stroke="#292D32"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"/>
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"/>
                 <path
                     d="M13.3333 21.1666H15.8399C16.3466 21.1666 16.8066 21.4533 17.0333 21.9066L17.6266 23.1C17.9999 23.8333 18.6666 23.8333 18.8266 23.8333H21.1799C21.6866 23.8333 22.1466 23.5466 22.3733 23.0933L22.9666 21.9C23.1933 21.4466 23.6533 21.16 24.1599 21.16H26.6533"
                     stroke="#292D32"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"/>
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"/>
             </svg>
         ),
         label: '',
@@ -228,10 +228,10 @@ export const INSTRUCTORRIGHTSIDEBARLIST = [
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                 <rect x="0.5" y="1" width="23" height="23" rx="11.5" stroke="#9E9E9E"/>
-                <path d="M9 12.5H15" stroke="#9E9E9E" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round"/>
-                <path d="M12 15.5V9.5" stroke="#9E9E9E" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round"/>
+                <path d="M9 12.5H15" stroke="#9E9E9E" strokeWidth="1.5" strokeLinecap="round"
+                      strokeLinejoin="round"/>
+                <path d="M12 15.5V9.5" stroke="#9E9E9E" strokeWidth="1.5" strokeLinecap="round"
+                      strokeLinejoin="round"/>
             </svg>
         ),
         label: 'plus',

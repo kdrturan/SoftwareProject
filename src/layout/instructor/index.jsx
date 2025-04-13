@@ -11,9 +11,12 @@ export default function InstructorLayout() {
     const location = useLocation();
 
     const currentSlug = location.pathname.split('/').pop()
+    const user = localStorage.getItem("user")
+        ? JSON.parse(localStorage.getItem("user"))
+        : null;
 
     useEffect(() => {
-        if (!localStorage.getItem("user")) {
+        if (!user) {
             navigate('/');
         }
     }, []);
@@ -26,7 +29,7 @@ export default function InstructorLayout() {
                 <main className='flex-1 bg-[#fdfdfd] p-8'>
                     <Outlet/>
                 </main>
-                {currentSlug === 'instructor' ? <RightSidebar/> : ""}
+                {currentSlug === 'instructor' ? <RightSidebar/> : null}
             </div>
         </>
     )
