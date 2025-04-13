@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+* {
+    @apply antialiased;
+}
+
+.bg-purple {
+    background: #e2d5ff;
+}
+
+.bg-green {
+    background: #d4e9d2;
+}
+
+.bg-blue {
+    background: #d6e0f5;
+}
