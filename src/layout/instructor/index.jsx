@@ -4,6 +4,7 @@ import RightSidebar from "../../components/right-sidebar/index.jsx";
 import LeftSidebar from "../../components/left-sidebar/index.jsx";
 import {useEffect} from "react";
 import {useLocation, useNavigate} from "react-router";
+import {INSTRUCTORSIDEBARLIST} from "../../utils/sidebar_titles/index.jsx";
 
 export default function InstructorLayout() {
 
@@ -19,14 +20,17 @@ export default function InstructorLayout() {
         if (!user) {
             navigate('/');
         }
+        if (currentSlug !== user.role) {
+            navigate(`/${user.role}`)
+        }
     }, []);
 
     return (
         <>
             <Toaster position='top-right'/>
             <div className='flex'>
-                <LeftSidebar/>
-                <main className='flex-1 bg-[#fdfdfd] p-8'>
+                <LeftSidebar SIDEBARLIST={INSTRUCTORSIDEBARLIST}/>
+                <main className='flex-1 bg-[#f9f9fa] p-8 h-screen overflow-y-auto'>
                     <Outlet/>
                 </main>
                 {currentSlug === 'instructor' ? <RightSidebar/> : null}

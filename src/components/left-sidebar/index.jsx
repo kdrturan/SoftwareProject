@@ -4,7 +4,8 @@ import {useLocation, useNavigate} from "react-router";
 import classNames from "classnames";
 import toast from "react-hot-toast";
 
-export default function LeftSidebar() {
+export default function LeftSidebar({SIDEBARLIST}) {
+
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -15,7 +16,7 @@ export default function LeftSidebar() {
     }
 
     return (
-        <aside className="flex flex-col h-screen w-[270px] shadow-lg py-8">
+        <aside className="flex flex-shrink-0 flex-col h-screen w-[270px] shadow-lg py-8">
             <div className="flex flex-col gap-y-12 flex-grow">
                 <div className="flex items-center gap-x-[9px] px-8">
                     <div className="w-[40px] h-[40px] bg-[#702DFF] rounded-full flex items-center justify-center">
@@ -27,7 +28,7 @@ export default function LeftSidebar() {
                 <div className="flex flex-col">
                     <span className="font-semibold text-[16px] pb-[10px] py-2 px-8">OVERVIEW</span>
                     <ul className="flex flex-col gap-y-2 px-6">
-                        {INSTRUCTORSIDEBARLIST.slice(0, 3).map((item, index) => {
+                        {SIDEBARLIST.slice(0, 3).map((item, index) => {
                             const isActive = location.pathname === `${item.slug}`;
 
                             return (

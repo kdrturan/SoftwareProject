@@ -1,5 +1,9 @@
 import {useLocation, useNavigate} from "react-router";
 import {useEffect} from "react";
+import {Toaster} from "react-hot-toast";
+import LeftSidebar from "../../components/left-sidebar/index.jsx";
+import {Outlet} from "react-router-dom";
+import {STUDENTSIDEBARLIST} from "../../utils/sidebar_titles/index.jsx";
 
 export default function StudentLayout() {
 
@@ -20,7 +24,18 @@ export default function StudentLayout() {
         }
     }, []);
 
+    console.log(currentSlug, user.role)
+
+
     return (
-        <div>student layout</div>
+        <>
+            <Toaster position='top-right'/>
+            <div className='flex'>
+                <LeftSidebar SIDEBARLIST={STUDENTSIDEBARLIST}/>
+                <main className='flex-1 bg-[#f9f9fa] p-8 h-screen overflow-y-auto'>
+                    <Outlet/>
+                </main>
+            </div>
+        </>
     )
 }

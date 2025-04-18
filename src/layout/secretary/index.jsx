@@ -1,5 +1,10 @@
 import {useLocation, useNavigate} from "react-router";
 import {useEffect} from "react";
+import {Toaster} from "react-hot-toast";
+import LeftSidebar from "../../components/left-sidebar/index.jsx";
+import {SECRETARYSIDEBARLIST} from "../../utils/sidebar_titles/index.jsx";
+import {Outlet} from "react-router-dom";
+import RightSidebar from "../../components/right-sidebar/index.jsx";
 
 export default function SecretaryLayout(){
 
@@ -21,6 +26,15 @@ export default function SecretaryLayout(){
     }, []);
 
     return (
-        <div>secretary-layout</div>
+        <>
+            <Toaster position='top-right'/>
+            <div className='flex'>
+                <LeftSidebar SIDEBARLIST={SECRETARYSIDEBARLIST}/>
+                <main className='flex-1 bg-[#f9f9fa] p-8 h-screen overflow-y-auto'>
+                    <Outlet/>
+                </main>
+                <RightSidebar/>
+            </div>
+        </>
     )
 }
